@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <title>Biláfia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    min-height: 75%;
+    }
+
+    .menu {
+    display: none;
+    }
+
+    .w3-quarter img{margin-bottom: -6px; cursor: pointer}
+    .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+
+    /* Style all font awesome icons */
+    .fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+    opacity: 0.7;
+    }
+
+    /* Set a specific color for each brand */
+
+    /* Facebook */
+    .fa-facebook {
+    background: #000000;
+    color: white;
+    }
+
+    /* Twitter */
+    .fa-twitter {
+    background: #000000;
+    color: white;
+    }
+
+    /* Instagram */
+    .fa-instagram {
+    background: #000000;
+    color: white;
+    }
+
+    </style>
+    <body>
+
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block w3-black">INICIO</a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">SOBRE</a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#menu" class="w3-button w3-block w3-black">PRODUTOS</a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#where" class="w3-button w3-block w3-black">CONTATO</a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:90px">BILÁFIA</span>
+    </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SOBRE A BILÁFIA</span></h5>
+        <p style="text-align: center;">De origem árabe, a palavra Biláfia de um modo geral significa saúde e bem estar.</p>
+        <p style="text-align: center;">Como quando brindamos e desejamos saúde!</p>
+        <p style="text-align: center;">Para eles a palavra tem significado em varios momentos, numa forma de desejar prosperidade e coisas boas.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+        <p style="text-align: center;"><i>E não poderia ser outro sentimento o nosso a não ser desejar que você sinta boas energias usando nossa marca.</i></p>
+        <p style="text-align: center;">(CEO) e (CEO)</p>
+        </div>
+        <!-- Team Section -->
+        <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+              <img src="img/img1.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img2.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img4.jpg" style="width:100%" onclick="onClick(this)" alt="">
+           </div>
+            
+           <div class="w3-quarter">
+              <img src="img/img1.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img2.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img4.jpg" style="width:100%" onclick="onClick(this)" alt="">
+            </div>
+            
+            <div class="w3-quarter">
+              <img src="img/img1.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img2.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img4.jpg" style="width:100%" onclick="onClick(this)" alt="">
+            </div>
+        
+            <div class="w3-quarter">
+              <img src="img/img1.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img2.jpg" style="width:100%" onclick="onClick(this)" alt="">
+              <img src="img/img4.jpg" style="width:100%" onclick="onClick(this)" alt="">
+            </div>
+          </div>
+
+    </div>
+
+    <!-- Menu Container -->
+    <div class="w3-container" id="menu">
+    <div class="w3-content" style="max-width:700px">
+    
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PRODUTOS</span></h5>
+
+    <div class="w3-row w3-grayscale">
+        <div class="w3-col l3 s6">
+            <div class="w3-container">
+              <div class="w3-display-container">
+                <img src="img/imgs3.jpg" style="width:100%">
+                <div class="w3-display-middle w3-display-hover">
+                  <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                </div>
+              </div>
+              <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+            </div>
+            <div class="w3-container">
+                <div class="w3-display-container">
+                  <img src="img/imgs1.jpg" style="width:100%">
+                  <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                  </div>
+                </div>
+                <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+                </div>
+            </div>
+    
+          <div class="w3-col l3 s6">
+            <div class="w3-container">
+              <div class="w3-display-container">
+                <img src="img/imgs2.jpg" style="width:100%">
+                <div class="w3-display-middle w3-display-hover">
+                  <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                </div>
+              </div>
+              <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+            </div>
+            <div class="w3-container">
+                <div class="w3-display-container">
+                  <img src="img/imgs3.jpg" style="width:100%">
+                  <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                  </div>
+                </div>
+                <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+                </div>
+            </div>
+    
+          <div class="w3-col l3 s6">
+            <div class="w3-container">
+              <div class="w3-display-container">
+                <img src="img/imgs3.jpg" style="width:100%">
+                <div class="w3-display-middle w3-display-hover">
+                  <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                </div>
+              </div>
+              <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+            </div>
+            <div class="w3-container">
+                <div class="w3-display-container">
+                  <img src="img/imgs1.jpg" style="width:100%">
+                  <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                  </div>
+                </div>
+                <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+              </div>
+          </div>
+    
+          <div class="w3-col l3 s6">
+            <div class="w3-container">
+              <div class="w3-display-container">
+                <img src="img/imgs2.jpg" style="width:100%">
+                <div class="w3-display-middle w3-display-hover">
+                  <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                </div>
+              </div>
+              <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+            </div>
+            <div class="w3-container">
+                <div class="w3-display-container">
+                  <img src="img/imgs3.jpg" style="width:100%">
+                  <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black"><a href="https://www.instagram.com/bilafia.br/">Buy now <i class="fa fa-shopping-cart"></i></a></button>
+                  </div>
+                </div>
+                <p>Camiseta Biláfia<br><b>R$ 60,00</b></p>
+              </div>
+    </div>
+    
+        
+
+    <!-- Contact/Area Container -->
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTATO</span></h5>
+        <p style="text-align: center;">Nos ache no instagram www.instagram.com/bilafia.br/</p>
+        <img src="img/insta.png" class="w3-image" style="width:100%">
+        <p style="text-align: center;">Oferecemos serviço completo, entendemos suas necessidades e vamos entregar produtos de melhor qualidade para satisfazer os mais criteriosos gostos.</p>
+    </div>
+    </div>
+
+    <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <a href="https://www.facebook.com/bilafiaamarca" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/bilafia.br/" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <p> © <href href="" title="Biláfia" target="_blank" class="w3-hover-text-green" style="text-decoration: none;">Biláfia</href></p>
+    </footer>
+
+    <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+    </script>
+
+    </body>
+</html>
